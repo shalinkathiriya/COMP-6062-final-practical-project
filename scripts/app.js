@@ -4,18 +4,18 @@ console.log('JS loaded!');
 const app = Vue.createApp({
     data() {
         return {
-            name: ' ',
-            age: ' ',
+            name: '',
+            age: '',
             avatar: '',
             profileData:[],
 
             city: 'London',
-            province: 'Ontatio',
+            province: 'Ontario',
             country: 'Canada',
             weather: [],
 
             dictionary: [],
-            defineWord: ' '
+            defineWord: ''
         };
     },
     created() {
