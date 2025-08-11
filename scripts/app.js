@@ -56,7 +56,7 @@ const app = Vue.createApp({
                 }
             })
             .then(data => {
-                    return this.weather = data;
+                this.weather = data;
             })
             .catch(error => {
                 console.log('Total failure');
